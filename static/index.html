@@ -286,10 +286,6 @@ function update() {
         drawNextFrame()
     }
     sendJSONXMLHTTPRequest("/world", null, callback);
-    // sendJSONXMLHTTPRequest("/world", {}, callback => {
-    //     world = XMLHttpRequest_world;
-    //     drawNextFrame()
-    // } )
 
     drawFrame();
 
